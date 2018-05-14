@@ -1,0 +1,14 @@
+ul.footer-links{
+    list-style-type: none;
+}
+
+li.footer-link a{
+    color: white;
+    font-size: 16px;
+    line-height: 35px;
+    text-decoration: none;
+}
+
+li.footer-link a:hover{
+    color: #2e9dba
+}
