@@ -28,9 +28,7 @@ class Header extends Component {
                     </nav>
                 </header>
             </div>
-            <div style={{height: '100px'}}>
-
-            </div>
+            <div style={{height: '100px'}}></div>
             </div>  
         )
     }
