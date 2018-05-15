@@ -34,6 +34,28 @@ li.nav-right-links a:hover {
     box-shadow: 2px 5px 5px -4px rgba(0,0,0,0.47);
 }
 
+li.nav-right-links:hover > a{
+    color: white;
+}
+
+.work-dropdown {
+    z-index: 2;
+    color: gray;
+    position: absolute;
+    width: 200px;
+    text-align: left;
+    background-color: rgba(255,255,255,.8);
+    transition: opacity 1s ease-out;
+    opacity: 0; 
+    height: 0;
+    overflow: hidden;
+}
+
+#nav-work:hover .work-dropdown {
+    opacity: 1;
+    height: auto;
+}
+
 @media (max-width: 1200px) {
     li.nav-right-links a {
         padding: 0px 10px
