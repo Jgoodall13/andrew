@@ -1,5 +1,39 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: "Roboto";
+}
+
+/* Global Hover effects! */
+
+.carousel-cta-btn:hover {
+  background-color: transparent !important;
+  border: 2px solid #2e9bda;
+  color: #2e9bda;
+}
+
+
+
+/* This is to make the arrows show in the carousel */
+.slides {
+  position: relative;
+}
+
+.slides .slick-prev, .slides .slick-next {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  font-size: 50px;
+}
+
+.slick-next:before, .slick-prev:before{
+  font-size: 50px;
+}
+
+.slides .slick-prev {
+  left: 5%;
+}
+
+.slides .slick-next {
+  right: 5%;
 }

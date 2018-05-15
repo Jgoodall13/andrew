@@ -13,7 +13,7 @@ class Header extends Component {
                 <header className="container" >
                     <nav className="row">
                         <div className="col-md-5">
-                            <Link to="/"><img src={logo} alt=""/> </Link>
+                            <a href="/"><img src={logo} /></a>
                         </div>
                         <div className="col-md-7">
                         <ul className="nav-right">

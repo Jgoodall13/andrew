@@ -1,9 +1,10 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const GetInTouch = () => (
   <div style={touchStyle}>
     <h3>Every challenge is different - Tell us about yours</h3>
-    <a href="" style={contactStyle}>GET IN TOUCH</a>
+    <Link to="/get" style={contactStyle}>GET IN TOUCH</Link>
   </div>
 )
 

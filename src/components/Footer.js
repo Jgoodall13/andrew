@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom'
 import './footer.css';
+import FooterLogo from '../images/footerLogo.png';
 
 class Footer extends Component {
   render(){
@@ -10,7 +11,7 @@ class Footer extends Component {
         <div className="container">
           <div className="row">
             <div className="col-sm-3">
-                <a href="/"><img src="" alt="logo"/></a>
+                <a href="/"><img src={FooterLogo} alt="logo"/></a>
             </div>
             <div className="col-sm-3">
                 <p style={{color: 'white'}}>40 E Cross Street</p>
@@ -34,10 +35,10 @@ class Footer extends Component {
                 </ul>
             </div>
             <div className="col-sm-3">
-                <h4 style={{color: 'white'}}>NEWSLETTER</h4>
+                <h4 style={{color: 'white', fontWeight: 'bold'}}>NEWSLETTER</h4>
                 <form action="">
-                  <input type="text" name="email" placeholder="Your email address"/>
-                  <button type="submit">SUBSCRIBE</button>
+                  <input type="text" name="email" style={inputStyle} placeholder="Your email address"/>
+                  <button type="submit" style={buttonStyle}>SUBSCRIBE</button>
                 </form>
             </div>
           </div>
@@ -52,6 +53,19 @@ const fontStyles = {
   color: 'white',
   fontSize: '25px',
   paddingRight: '10px'
+}
+
+const inputStyle = {
+  border: 'none',
+  padding: '10px',
+  marginBottom: '13px'
+}
+
+const buttonStyle = {
+  border: '2px solid white',
+  backgroundColor: 'transparent',
+  padding: '8px 20px',
+  color: 'white'
 }
 
 export default Footer;
