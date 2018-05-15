@@ -6,6 +6,7 @@ class Footer extends Component {
   render(){
     return (
       <div style={{backgroundColor: '#31393f'}}>
+      <div style={{paddingTop: '50px'}}></div>
         <div className="container">
           <div className="row">
             <div className="col-sm-3">
@@ -41,6 +42,7 @@ class Footer extends Component {
             </div>
           </div>
         </div>
+        <div style={{paddingBottom: '50px'}}></div>
       </div>
     )
   }

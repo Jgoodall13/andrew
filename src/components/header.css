@@ -31,6 +31,7 @@ li.nav-right-links a:hover {
     z-index: 999;
     background-color: #fff;
     width: 100%;
+    box-shadow: 2px 5px 5px -4px rgba(0,0,0,0.47);
 }
 
 @media (max-width: 1200px) {

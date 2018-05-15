@@ -2,7 +2,7 @@ import React from 'react'
 import Carousel from './home/Carousel'
 import Featured from './home/Featured'
 import ImageBox from './home/ImageBox'
-import CountUp from './home/CountUp'
+import Count from './home/Count'
 import GetInTouch from './home/GetInTouch'
 
 const Home = () => (
@@ -10,7 +10,7 @@ const Home = () => (
     <Carousel />
     <Featured />
     <ImageBox />
-    <CountUp />
+    <Count />
     <GetInTouch />
   </div>
 )
